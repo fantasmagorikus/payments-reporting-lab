@@ -16,10 +16,6 @@ Small, reproducible lab that processes card acceptance and chargeback extracts w
 
 ## Data source (mock)
 - Data is mock transaction-like CSVs for a fictional payments provider. No production or live data.
-- Public payment data references for context:
-  - https://datahub.io/MachineShop/ecommerce-payments (example ecommerce payment dataset)
-  - https://www.kaggle.com/code/joebeachcapital/credit-card-transaction-data (example card transaction demo)
-- APIs: this lab works entirely offline on static CSVs; no payment gateways or external APIs are called. In a real flow, these same transforms could sit in front of ingestion APIs or warehouse tables exposed by a PSP.
 
 ## Quickstart
 ```bash
